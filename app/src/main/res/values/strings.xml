@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My_School_app</string>
+    <string name="prin_speech">Bismillahir Rahmanir Rahim.
+    Ours is one of the renowned school in the division.With the process of digitalization,
+        it has been hard for acknowledging student Academic performance along with
+        interaction between teachers and guardians.
+         So,we came up with a solution and the solution is this app.
+        I strongly believe that this app will make academic affairs easier and cost effective.</string>
+
+    <string name="prefLoginState">loginstate</string>
+</resources>

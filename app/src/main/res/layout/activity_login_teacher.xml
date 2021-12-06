@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Login_teacher"
+    android:orientation="vertical"
+    android:background="#8BC34A"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login As Teacher!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:id="@+id/login_username"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password!"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:id="@+id/login_pass"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Teacher Code!"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:id="@+id/login_code"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:id="@+id/login_tbtn"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:backgroundTint="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/req_sign2"
+        android:text="Not Signed Up Yet? Sign Up Now!!"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>

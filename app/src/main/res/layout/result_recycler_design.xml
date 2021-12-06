@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="180dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2"
+
+       >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_id"
+    android:visibility="invisible"
+    android:text="id"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="student's name : "
+    android:textColor="@android:color/background_dark"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="left"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/editroll"
+        android:inputType="text"
+        android:textColor="@android:color/background_dark"/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="student's roll : "
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:inputType="text"
+                android:id="@+id/editname"
+                android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="student's GPA : "
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                android:id="@+id/editgpa"
+                android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="student's total marks : "
+                android:textColor="@android:color/background_dark"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/editmark"
+                android:textColor="@android:color/background_dark"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

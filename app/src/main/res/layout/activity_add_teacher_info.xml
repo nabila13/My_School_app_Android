@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_teacher_info"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adding Teacher's Information"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/teacher_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:hint="Enter teacher name"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        />
+    <EditText
+
+        android:id="@+id/teacher_gender"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:hint="Teacher's gender"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="5dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/teacher_mobile"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:hint="Enter Teacher's Phone number"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        />
+
+
+    <EditText
+        android:id="@+id/teacher_email"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter teacher's E-mail Address"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/add_teacherinfo"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="Add data"
+        android:layout_margin="20dp"
+
+        />
+    <Button
+        android:id="@+id/getback"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="Go bakck"
+        android:layout_margin="20dp"
+
+        />
+</LinearLayout>

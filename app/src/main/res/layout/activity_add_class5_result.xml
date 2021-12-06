@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_class5_result"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adding class 5 results"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/c_roll"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:hint="Student's Roll"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+
+        android:id="@+id/c_name"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:hint="Student's name "
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/c_gpa"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:hint="obtained GPA"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+
+        android:id="@+id/c_point"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        android:hint="Obtained total marks"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:id="@+id/btnadd5"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Add data"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btnaddcustomer5"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="Go back"
+        android:layout_margin="20dp"
+
+        />
+</LinearLayout>
